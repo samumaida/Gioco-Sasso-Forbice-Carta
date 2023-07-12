@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    border: 5px solid black;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    margin: 12em auto;
+    justify-content: space-around;
+}
+.container button{
+    padding: 2em;
+    margin: 0 1em 0 1em;
+}
+.p{
+    border: 2px solid black;
+    height: 200px;
+    width: 430px;
+    border-radius: 1em;
+    align-items: center;
+    margin: 0 0 2em 0;
+    font-size: 32px;
+}
+h3{
+    margin-top: 2.5em;
+}
+.sasso{
+    height: 350px;
+    z-index: -1;
+    position: absolute;
+    left: 550px;
+    top: 660px;
+}
+.forbice{
+    height: 650px;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    transform: rotate(30deg);
+    top: 0px;
+}
+.carta{
+    height: 550px;
+    z-index: -1;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+.nome{
+    height: 100px;
+    width: 200px;
+    background-color: lightgray;
+}
+.mainContainer{
+    display: flex;
+}
+.punteggioGiocatore{
+    height: 50px;
+    min-width: 250px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 2em 1em auto 2em;
+    display: flex;
+    align-items: center;
+}
+.punteggioComputer{
+    height: 50px;
+    min-width: 250px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 2em 2em auto 1em;
+    display: flex;
+    align-items: center;
+}
+#nome-giocatore{
+    margin-left: .5em;
+    font-size: 25px;
+}
+#punti-giocatore{
+font-size: 25px;
+margin-top: .1em;
+margin-right: .5em;
+}
+.spacer{
+    width: 100%;
+}
+#computer{
+    margin-left: .5em;
+    font-size: 25px;
+}
+#punti-computer{
+    font-size: 25px;
+margin-top: .1em;
+margin-right: .5em;
+}
+button{
+    font-size: 16px;
+    border-radius: .7em;
+}
+button:hover{
+    background-color: white;
+    box-shadow: 3px 3px gray;
+}
